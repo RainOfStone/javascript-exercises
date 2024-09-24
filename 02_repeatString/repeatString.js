@@ -1,12 +1,9 @@
 const repeatString = function(a, b) {
-  let a = 'hey', b = 0
-do {
-  b++
-  if (b < 3){
-  a = a + a
+let s = ''
+for (let i = 0; i < b i++){
+  s += a
   }
-} while (b < 3)
-return a
+  return s
 }
 // Do not edit below this line
 module.exports = repeatString;
